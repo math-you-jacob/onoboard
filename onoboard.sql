@@ -105,6 +105,13 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`USERID`, `EMAIL`, `PASSWORD`, `FIRSTNAME`, `LASTNAME`, `PHONE`, `REGION`, `TAGS`, `USERMODE`) VALUES
+(1, 'admin', 'admin', 'Mathew', 'Jacob', '123456', 'Kerala', 'null', 'admin');
+
+--
 -- Indexes for dumped tables
 --
 
